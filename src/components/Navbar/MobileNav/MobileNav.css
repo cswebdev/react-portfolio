@@ -34,12 +34,25 @@
 }
 
 .logo {
-    height: 3.6rem;
+    height: 3rem;
     width: auto;
     fill: #fff;
     transition: fill 0.3s ease;
 
 }
+
+.outline {
+    height: 3.5rem;
+    width: 3.5rem;
+    outline: .2rem solid #fff;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    transition: all .3s ease;
+}
+
 
 
 .mobile-menu ul {

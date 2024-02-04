@@ -44,3 +44,40 @@ export const SKILLS = [
       ],
    },
 ];
+
+export const WORK_EXPERIENCE = [
+   {
+      title: "Booz Allen Hamilton - Intern",
+      date: "July 2023 - December 2023",
+      responsibilities: [
+         "Developed dynamic front-end AngularJS components to display for a Department of Veterans Affairs financial dashboard.",
+         "Increased security by preventing users from deactivating their own accounts in the Java Spring Boot backend of the Veterans Affairs financial dashboard.",
+         "Created front end and back end unit tests to verify correct HTTPS status codes related to user access in order to ehance error handling for Veterans Affairs financial dashboard.",
+         "Researched and created reports for the National Oceanic and Atmospheric Administration on AI and non AI based options to update Fortran codebases to Python.",
+         "Collaborated with multiple teams on different projects in a highly agile development environment.",
+      ],
+   },
+   {
+      title: "Develop Carolina - Software Development Apprentice",
+      date: "June 2023 - December 2023",
+      responsibilities: [
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+         "lacus vel facilisis volutpat est velit egestas dui id ornare arcu odio ut sem nulla",
+         "orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus",
+         "imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida",
+      ],
+   },
+];
+
+export const EDUCATION_EXPERIENCE = [
+   {
+      title: "Develop Carolina Apprenticeship",
+      date: "June 2023 - December 2023",
+      degree: "Journeymans Certification in Software Development.",
+   },
+   {
+      title: "Carolina Code School",
+      date: "January 2023 - March 2023",
+      degree: "Full Stack Developer Certification",
+   },
+];
