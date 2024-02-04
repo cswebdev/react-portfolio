@@ -41,18 +41,6 @@
 
 }
 
-.outline {
-    height: 4rem;
-    width: 4rem;
-    outline: .2rem solid #fff;
-    border-radius: 15px;
-    padding: 8px;
-    margin: 0;
-    position: absolute;
-    z-index: -1;
-    transition: all .3s ease;
-    /* background-color: #dfdfdfae; */
-}
 
 .mobile-menu ul {
     display: flex;
@@ -62,8 +50,11 @@
     margin-left: -2rem;
 }
 
+
 @media(max-width: 769px) {
+
     .mobile-menu {
         display: block;
+
     }
 }

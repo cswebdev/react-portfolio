@@ -20,7 +20,6 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                         fill="#fff"
                      ></path>
                   </svg>
-                  <div className="outline"></div>
                </div>
                <ul>
                   <li>

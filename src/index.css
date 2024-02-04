@@ -6,16 +6,12 @@
  * {
    font-family: "Poppins", sans-serif;
    margin: 0;
+
    box-sizing: border-box;
    color: #fff;
  }
 
  body {
-   /* color: hsl(0, 0%, 100%); */
    background-color: #060417;
  }
 
- /* a {
-   color: #fff;
-   text-decoration: none;
- } */
