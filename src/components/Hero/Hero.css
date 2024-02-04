@@ -1,0 +1,12 @@
+.hero-img {
+    max-width: 35rem;
+    /* max-height: 35rem; */
+    overflow: hidden;
+}
+
+.hero-img img {
+    width: 35rem;
+    height: auto;
+    border-radius: 35px;
+
+}
