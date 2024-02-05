@@ -3,6 +3,7 @@ import "./ContactMe.css";
 import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import EmailIcon from "../../assets/images/email-icon.svg";
 import GithubIcon from "../../assets/images/github-icon.svg";
+import ContactForm from "./ContactForm/ContactForm";
 const ContactMe = () => {
    return (
       <>
@@ -20,7 +21,9 @@ const ContactMe = () => {
                      text="https://github.com/cswebdev"
                   />
                </div>
-               <div style={{ flex: 1 }}></div>
+               <div style={{ flex: 1 }}>
+                  <ContactForm />
+               </div>
             </div>
          </section>
       </>
