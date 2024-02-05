@@ -47,7 +47,7 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
    {
-      title: "Booz Allen Hamilton - Intern",
+      title: "Booz Allen Hamilton - Full Stack Intern",
       date: "July 2023 - December 2023",
       responsibilities: [
          "Developed dynamic front-end AngularJS components to display for a Department of Veterans Affairs financial dashboard.",
