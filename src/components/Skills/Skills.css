@@ -3,6 +3,11 @@
     position: relative;
 }
 
+.skills-container>p {
+    margin: 2.5rem 0rem;
+    width: 55%;
+}
+
 .skills-container::after,
 .skills-container::before {
     content: "";
@@ -16,14 +21,17 @@
 }
 
 .skills-container::after {
-    top: -3rem;
-    left: -5rem;
+    top: 0rem;
+    left: 5rem;
 }
 
 .skills-container::before {
-    background-color: #7f4296c4;
-    bottom: 0rem;
+    /* background-color: #7f4296c4; */
+    background-color: #413283;
+    bottom: -10rem;
     right: 0rem;
+    height: 20rem;
+    width: 20rem;
 }
 
 

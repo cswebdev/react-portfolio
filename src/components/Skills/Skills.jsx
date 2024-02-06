@@ -14,7 +14,11 @@ const Skills = () => {
       <>
          <section className="skills-container">
             <h5>Techincal Profeciency</h5>
-
+            <p>
+               Over the past year of attending a code bootcamp, an
+               apprenticeship program, and an internship, I have developed a few
+               skills and have worked with some interesting technologies!
+            </p>
             <div className="skills-content">
                <div className="skills">
                   {SKILLS.map((item) => (

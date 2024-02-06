@@ -48,21 +48,20 @@
     font-size: 1.38rem;
     font-weight: 400;
     line-height: 2rem;
+    margin-bottom: 1rem;
 
 }
 
 .social-bar {
-    border: 1.5px solid #6852ba;
+    /* border: 1.5px solid #6852ba; */
     border-radius: 0.65rem;
     height: 3.8rem;
-    /* width: 50%; */
+    width: 80%;
     display: flex;
     flex-direction: row;
     /* justify-content: center; */
     align-items: center;
-    margin-top: .55rem;
-
-
+    margin-top: 1rem;
 }
 
 .social-icon {
@@ -71,8 +70,7 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    padding: 0rem;
-    margin: 0rem;
+
 }
 
 .social-icon img {
@@ -81,10 +79,17 @@
 
 }
 
-#github-icon {
-    height: 3rem;
-    width: auto;
+.social-icon>img {
+    padding: 3px;
+    border: 1.5px solid #613efd99;
+    background-color: #312752;
+
 }
+
+.social-icon>img:hover {
+    background-color: #12054d99;
+}
+
 
 .hero-img {
     flex: 0;

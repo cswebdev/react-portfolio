@@ -7,6 +7,7 @@ import htmlIcon from "../../assets/images/html5.png";
 import cssIcon from "../../assets/images/css3-icon.png";
 import githubIcon from "../../assets/images/github-icon.svg";
 import linkedinIcon from "../../assets/images/linkedin-icon.svg";
+import devtoIcon from "../../assets/images/dev-to.svg";
 
 const Hero = () => {
    return (
@@ -14,10 +15,9 @@ const Hero = () => {
          <section className="hero-container">
             <div className="hero-content">
                <h2>
-                  Hello, <br /> I'm Christian.
-                  <br />Full Stack Developer
+                  Hello, <br /> I'm Chelsea!
                </h2>
-               <p>| Problem Solver | TDD advocate</p>
+               <p>Full Stack Developer | Web Wizard | Problem Solver</p>
                <p>
                   Transforming ideas into seamless and visually stunning web
                   solutions
@@ -30,7 +30,7 @@ const Hero = () => {
                      <img id="githubIcon" src={githubIcon} alt="githubIcon" />
                   </div>
                   <div className="social-icon">
-                     <img id="githubIcon" src={githubIcon} alt="devTo Icon" />
+                     <img id="githubIcon" src={devtoIcon} alt="devTo Icon" />
                   </div>
                </div>
             </div>

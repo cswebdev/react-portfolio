@@ -37,10 +37,10 @@ export const SKILLS = [
       title: "Soft Skills",
       icon: softskills,
       skills: [
-         { skill: "Attention to Detail", percentage: "90%" },
+         { skill: "Attention to Detail", percentage: "95%" },
          { skill: "Communication", percentage: "80%" },
-         { skill: "Problem Soliving", percentage: "60%" },
-         { skill: "Creativity", percentage: "70%" },
+         { skill: "Problem Solving", percentage: "60%" },
+         { skill: "Creativity", percentage: "90%" },
       ],
    },
 ];
