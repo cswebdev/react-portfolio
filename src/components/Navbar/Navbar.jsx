@@ -31,6 +31,11 @@ const Navbar = () => {
                      </a>
                   </li>
                   <li>
+                     <a href="#" className="menu-item">
+                        Projects
+                     </a>
+                  </li>
+                  <li>
                      <a className="menu-item" href="#">
                         Work Experience
                      </a>
@@ -42,7 +47,7 @@ const Navbar = () => {
                   </li>
 
                   <button className="contact-btn" onClick={() => {}}>
-                     Hire Me
+                     Resume
                   </button>
                </ul>
 

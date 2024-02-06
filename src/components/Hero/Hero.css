@@ -33,21 +33,57 @@
 .hero-content {
     flex: 1;
     /* border: 1px solid red; */
+    margin-top: 4.2rem;
 }
 
 .hero-content h2 {
-    font-size: 5.8rem;
+    font-size: 5.5rem;
     font-weight: 600;
     line-height: 6rem;
     margin-bottom: 2rem;
 }
 
 .hero-content p {
-    width: 80%;
+    width: 85%;
     font-size: 1.38rem;
     font-weight: 400;
     line-height: 2rem;
 
+}
+
+.social-bar {
+    border: 1.5px solid #6852ba;
+    border-radius: 0.65rem;
+    height: 3.8rem;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: .55rem;
+
+
+}
+
+.social-icon {
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.social-icon img {
+    height: 3rem;
+    width: 3rem;
+
+}
+
+#github-icon {
+    height: 3rem;
+    width: auto;
 }
 
 .hero-img {
@@ -126,6 +162,20 @@
         width: 2.5rem;
         height: 2.5rem;
     }
+
+    .social-bar {
+        height: 2.5rem;
+    }
+
+    .social-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .social-icon img {
+        width: 2rem;
+        height: 2rem;
+    }
 }
 
 
@@ -196,5 +246,11 @@
     .tech-icon img {
         width: 2rem;
         height: 2rem;
+    }
+
+    .social-bar,
+    .social-icon img {
+        height: 1.2rem;
+        width: auto;
     }
 }
