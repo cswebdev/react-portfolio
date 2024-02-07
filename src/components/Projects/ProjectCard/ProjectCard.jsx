@@ -6,9 +6,11 @@ const ProjectCard = ({ details }) => {
    return (
       <div className="projects-card">
          <h6>{details.title}</h6>
-         <p className="tech-stack">frontend: {details.stack.frontend}</p>
-         <p className="tech-stack">backend: {details.stack.backend}</p>
          <p>{details.description}</p>
+         <div className="stack-info">
+            <span className="tech-stack">{details.stack.frontend}</span>
+            <span className="tech-stack">{details.stack.backend}</span>
+         </div>
          <a href={details.href} target="_blank">
             <button className="github-btn">
                <span>GitHub</span> <img src={githubIcon} alt="GitHub Icon" />

@@ -52,7 +52,8 @@ export const PROJECTS = [
          frontend: "ReactJS",
          backend: "Django",
       },
-      description: "lorem ipsum",
+      description:
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Donec enim diam vulputate ut.",
       href: "https://github.com/cswebdev/closet-swap",
    },
 
@@ -62,24 +63,27 @@ export const PROJECTS = [
          frontend: "AngularJS",
          backend: "Java Spring Boot",
       },
-      description: "lorem ipsum",
+      description:
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Donec enim diam vulputate ut.",
    },
 
    {
       title: "Pixel Perfect",
       stack: {
          frontend: "HTML5",
-         backend: "",
+         // backend: "",
       },
-      description: "lorem ipsum",
+      description:
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Donec enim diam vulputate ut.",
    },
    {
       title: "Dashyboard",
       stack: {
          frontend: "ReactJS",
-         backend: "",
+         // backend: "",
       },
-      description: "lorem ipsum",
+      description:
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Donec enim diam vulputate ut.",
    },
 ];
 
