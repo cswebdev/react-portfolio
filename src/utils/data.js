@@ -71,7 +71,7 @@ export const PROJECTS = [
       title: "Pixel Perfect",
       stack: {
          frontend: "HTML5",
-         // backend: "",
+         backend: "",
       },
       description:
          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Donec enim diam vulputate ut.",
@@ -80,7 +80,7 @@ export const PROJECTS = [
       title: "Dashyboard",
       stack: {
          frontend: "ReactJS",
-         // backend: "",
+         backend: "",
       },
       description:
          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Donec enim diam vulputate ut.",
