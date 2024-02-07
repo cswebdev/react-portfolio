@@ -1,10 +1,10 @@
 import React from "react";
 import "./Hero.css";
 import heroIllustration from "../../assets/images/hero-illustration.png";
-import reactIcon from "../../assets/images/react-icon.png";
-import javaScriptIcon from "../../assets/images/javaScript-icon.png";
-import htmlIcon from "../../assets/images/html5.png";
-import cssIcon from "../../assets/images/css3-icon.png";
+// import reactIcon from "../../assets/images/react-icon.png";
+// import javaScriptIcon from "../../assets/images/javaScript-icon.png";
+// import htmlIcon from "../../assets/images/html5.png";
+// import cssIcon from "../../assets/images/css3-icon.png";
 import githubIcon from "../../assets/images/github-icon.svg";
 import linkedinIcon from "../../assets/images/linkedin-icon.svg";
 import devtoIcon from "../../assets/images/dev-to.svg";
@@ -15,7 +15,7 @@ const Hero = () => {
          <section className="hero-container">
             <div className="hero-content">
                <h2>
-                  Hello, <br /> I'm Chelsea!
+                  Hello, <br /> I'm Christian!
                </h2>
                <p>Full Stack Developer | Web Wizard | Problem Solver</p>
                <p>
@@ -43,7 +43,7 @@ const Hero = () => {
                      alt=""
                   />
                </div>
-
+               {/* 
                <div>
                   <div className="tech-icon">
                      <img src={htmlIcon} alt="" />
@@ -57,7 +57,7 @@ const Hero = () => {
                   <div className="tech-icon">
                      <img src={reactIcon} alt="" />
                   </div>
-               </div>
+               </div> */}
             </div>
          </section>
       </>

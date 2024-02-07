@@ -45,6 +45,43 @@ export const SKILLS = [
    },
 ];
 
+export const PROJECTS = [
+   {
+      title: "ClosetSwap",
+      stack: {
+         frontend: "ReactJS",
+         backend: "Django",
+      },
+      description: "lorem ipsum",
+   },
+
+   {
+      title: "Medisense",
+      stack: {
+         frontend: "AngularJS",
+         backend: "Java Spring Boot",
+      },
+      description: "lorem ipsum",
+   },
+
+   {
+      title: "Pixel Perfect",
+      stack: {
+         frontend: "HTML5",
+         backend: "",
+      },
+      description: "lorem ipsum",
+   },
+   {
+      title: "Dashyboard",
+      stack: {
+         frontend: "ReactJS",
+         backend: "",
+      },
+      description: "lorem ipsum",
+   },
+];
+
 export const WORK_EXPERIENCE = [
    {
       title: "Booz Allen Hamilton - Full Stack Intern",

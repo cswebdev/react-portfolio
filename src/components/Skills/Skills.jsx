@@ -3,6 +3,10 @@ import "./Skills.css";
 import { SKILLS } from "../../utils/data";
 import SkillCard from "./SkillCard/SkillCard";
 import SkillsInfoCard from "./SkillsInfoCard/SkillsInfoCard";
+import reactIcon from "../../assets/images/react-icon.png";
+import javaScriptIcon from "../../assets/images/javaScript-icon.png";
+import htmlIcon from "../../assets/images/html5.png";
+import cssIcon from "../../assets/images/css3-icon.png";
 
 const Skills = () => {
    const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
@@ -15,10 +19,42 @@ const Skills = () => {
          <section className="skills-container">
             <h5>Techincal Profeciency</h5>
             <p>
-               Over the past year of attending a code bootcamp, an
-               apprenticeship program, and an internship, I have developed a few
-               skills and have worked with some interesting technologies!
+               Over the past year I have attending a code bootcamp, an
+               apprenticeship program, and an internship. During that time I
+               have learned a few skills and have worked with some interesting
+               technologies and tech stacks!
             </p>
+
+            <div className="tech-stacks">
+               <div className="stack-row">
+                  <div className="tech-icon">
+                     <img src={htmlIcon} alt="" />
+                  </div>
+                  <div className="tech-icon">
+                     <img src={cssIcon} alt="" />
+                  </div>
+                  <div className="tech-icon">
+                     <img src={javaScriptIcon} alt="" />
+                  </div>
+                  <div className="tech-icon">
+                     <img src={reactIcon} alt="" />
+                  </div>
+               </div>
+               <div className="stack-row">
+                  <div className="tech-icon">
+                     <img src={htmlIcon} alt="" />
+                  </div>
+                  <div className="tech-icon">
+                     <img src={cssIcon} alt="" />
+                  </div>
+                  <div className="tech-icon">
+                     <img src={javaScriptIcon} alt="" />
+                  </div>
+                  <div className="tech-icon">
+                     <img src={reactIcon} alt="" />
+                  </div>
+               </div>
+            </div>
             <div className="skills-content">
                <div className="skills">
                   {SKILLS.map((item) => (

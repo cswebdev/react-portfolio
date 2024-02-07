@@ -46,7 +46,7 @@ const Navbar = () => {
                      </a>
                   </li>
 
-                  <button className="contact-btn" onClick={() => {}}>
+                  <button className="resume-btn" onClick={() => {}}>
                      Resume
                   </button>
                </ul>
