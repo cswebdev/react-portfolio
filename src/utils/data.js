@@ -53,6 +53,7 @@ export const PROJECTS = [
          backend: "Django",
       },
       description: "lorem ipsum",
+      href: "https://github.com/cswebdev/closet-swap",
    },
 
    {

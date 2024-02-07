@@ -15,7 +15,7 @@ const Hero = () => {
          <section className="hero-container">
             <div className="hero-content">
                <h2>
-                  Hello, <br /> I'm Christian!
+                  Hello, <br /> I'm Chelsea!
                </h2>
                <p>Full Stack Developer | Web Wizard | Problem Solver</p>
                <p>
