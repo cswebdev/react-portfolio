@@ -5,7 +5,7 @@ import softskills from "../assets/images/softskills-icon.svg";
 import closetSwap from "../assets/images/closet-swap.herokuapp.com.png";
 import medisense from "../assets/images/localhost_4200_login.png";
 import pixelPerfect from "../assets/images/cswebdev.github.io_pixel-perfect_.png";
-import dashboardy from "../assets/images/cswebdev.github.io_smart_dashboard_.png"
+import dashboardy from "../assets/images/cswebdev.github.io_smart_dashboard_.png";
 
 export const SKILLS = [
    {
@@ -63,18 +63,6 @@ export const PROJECTS = [
    },
 
    {
-      title: "Medisense",
-      image: medisense,
-      stack: {
-         frontend: "AngularJS",
-         backend: "Java Spring Boot",
-      },
-      description:
-         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Donec enim diam vulputate ut.",
-      href: "https://github.com/cswebdev/medisense",
-   },
-
-   {
       title: "Pixel Perfect",
       image: pixelPerfect,
       stack: {
@@ -86,7 +74,18 @@ export const PROJECTS = [
       href: "https://github.com/cswebdev/pixel-perfect",
    },
    {
-      title: "Dashboady",
+      title: "Medisense",
+      image: medisense,
+      stack: {
+         frontend: "AngularJS",
+         backend: "Java Spring Boot",
+      },
+      description:
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Donec enim diam vulputate ut.",
+      href: "https://github.com/cswebdev/medisense",
+   },
+   {
+      title: "MyDashboard",
       image: dashboardy,
       stack: {
          frontend: "ReactJS",

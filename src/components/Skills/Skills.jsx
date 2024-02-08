@@ -22,7 +22,7 @@ const Skills = () => {
    return (
       <>
          <section className="skills-container">
-            <h5>Techincal Profeciency</h5>
+            <h5>Technical Proficiency</h5>
             <p>
                Over the past year I have attending a code bootcamp, an
                apprenticeship program, and an internship. During that time I
