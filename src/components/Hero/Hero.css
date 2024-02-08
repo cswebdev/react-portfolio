@@ -39,7 +39,7 @@
 .hero-content h2 {
     font-size: 5.8rem;
     font-weight: 600;
-    line-height: 6rem;
+    line-height: 7rem;
     margin-bottom: 2rem;
 }
 
@@ -68,10 +68,12 @@
     height: 3rem;
     width: 3rem;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
-
+    /* Add padding to create space around icons */
+    padding-right: 3.2rem;
+    /* Adjust the value to your preference */
 }
+
 
 .social-icon img {
     height: 3rem;
@@ -79,17 +81,15 @@
 
 }
 
-.social-icon>img {
+.social-icon>a img {
     padding: 3px;
-    /* border: 1.5px solid #613efd99; */
-    border-radius: 0.65rem;
-    background-color: #312752;
+
 
 }
 
 
 
-.social-icon>img:hover {
+.social-icon>a img:hover {
     background-color: #110c2799;
     padding: 4px;
 }

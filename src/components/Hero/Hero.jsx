@@ -53,21 +53,6 @@ const Hero = () => {
                      alt=""
                   />
                </div>
-               {/* 
-               <div>
-                  <div className="tech-icon">
-                     <img src={htmlIcon} alt="" />
-                  </div>
-                  <div className="tech-icon">
-                     <img src={cssIcon} alt="" />
-                  </div>
-                  <div className="tech-icon">
-                     <img src={javaScriptIcon} alt="" />
-                  </div>
-                  <div className="tech-icon">
-                     <img src={reactIcon} alt="" />
-                  </div>
-               </div> */}
             </div>
          </section>
       </>

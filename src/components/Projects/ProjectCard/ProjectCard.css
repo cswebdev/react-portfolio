@@ -4,19 +4,19 @@
     border: 1.5px solid #6751b9;
     padding: 1.5rem;
     margin: 0 1rem;
-    height: 23rem;
+    height: 25rem;
     position: relative;
 }
 
 .projects-card h6 {
     font-size: 1.05rem;
     font-weight: 500;
-    margin-bottom: 0.7rem;
+    /* margin-bottom: 0.rem; */
 }
 
 .card-body {
     position: relative;
-    height: 16rem;
+    height: 18rem;
     padding: 0;
     margin: auto;
 }
@@ -107,16 +107,16 @@ p {
 }
 
 .tech-stack {
-    background: #58469b;
+    /* background: #58469b; */
     width: fit-content;
     padding: .4rem;
-    outline: 1.5px solid #6751b9;
+    /* outline: 1.5px solid #6751b9; */
     border-radius: 0.2rem;
     margin: 0 0 0 1rem;
     font-size: .9rem;
 }
 
 .tech-stack:hover {
-    background: #000;
+    /* background: #000; */
     color: #a993fe;
 }
