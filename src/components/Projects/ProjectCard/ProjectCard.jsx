@@ -9,7 +9,8 @@ const ProjectCard = ({ details }) => {
             <h6>{details.title}</h6>
          </div>
          <div className="card-body">
-            <p>{details.description}</p>
+            <img src={details.image} alt="" />
+            {/* <p>{details.description}</p> */}
          </div>
 
          <div className="card-footer">

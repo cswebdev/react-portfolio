@@ -17,7 +17,7 @@
     margin-bottom: 2rem;
     /* border: 1.5px solid #413283; */
     /* align-items: center; */
-    max-width: 30%;
+    max-width: 40%;
     justify-content: space-between;
 
 }
@@ -29,6 +29,12 @@
     margin: .10rem 0;
 }
 
+.stack-row:nth-of-type(2) {
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
 .tech-icon {
     width: 5rem;
     height: 5rem;
@@ -36,8 +42,9 @@
     align-items: center;
     justify-content: center;
     border-radius: 0.65rem;
-    border: 1.5px solid #6852ba;
+    /* border: 1.5px solid #6852ba; */
     /* box-shadow: 0 0 0 2px #613efd75, 8px 8px 0 0 #613efd5d; */
+    background-color: #ffffff;
 }
 
 

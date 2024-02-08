@@ -1,10 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import heroIllustration from "../../assets/images/hero-illustration.png";
-// import reactIcon from "../../assets/images/react-icon.png";
-// import javaScriptIcon from "../../assets/images/javaScript-icon.png";
-// import htmlIcon from "../../assets/images/html5.png";
-// import cssIcon from "../../assets/images/css3-icon.png";
+
 import githubIcon from "../../assets/images/github-icon.svg";
 import linkedinIcon from "../../assets/images/linkedin-icon.svg";
 import devtoIcon from "../../assets/images/dev-to.svg";
@@ -17,7 +14,7 @@ const Hero = () => {
                <h2>
                   Hello, <br /> I'm Chelsea!
                </h2>
-               <p>Full Stack Developer | Web Wizard | Problem Solver</p>
+               <p>Full Stack Developer | Innovator | Problem Solver</p>
                <p>
                   Transforming ideas into seamless and visually stunning web
                   solutions

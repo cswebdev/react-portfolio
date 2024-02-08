@@ -1,7 +1,6 @@
 .projects-container {
     margin: 4rem 0;
     position: relative;
-    border: 1px solid red;
 
 }
 
@@ -13,7 +12,6 @@
 
 .projects-content {
     position: relative;
-    border: 1px solid red;
 
 }
 
@@ -30,7 +28,7 @@
     border: 1.5px solid #6751b9;
     background: #130f2a;
     position: absolute;
-    top: 55%;
+    top: 45%;
     z-index: 2;
     cursor: pointer;
 }

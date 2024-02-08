@@ -2,6 +2,10 @@ import frontend from "../assets/images/frontend-icon.svg";
 import backend from "../assets/images/backend-icon.svg";
 import tools from "../assets/images/tools-icon.svg";
 import softskills from "../assets/images/softskills-icon.svg";
+import closetSwap from "../assets/images/closet-swap.herokuapp.com.png";
+import medisense from "../assets/images/localhost_4200_login.png";
+import pixelPerfect from "../assets/images/cswebdev.github.io_pixel-perfect_.png";
+import dashboardy from "../assets/images/cswebdev.github.io_smart_dashboard_.png"
 
 export const SKILLS = [
    {
@@ -48,6 +52,7 @@ export const SKILLS = [
 export const PROJECTS = [
    {
       title: "ClosetSwap",
+      image: closetSwap,
       stack: {
          frontend: "ReactJS",
          backend: "Django",
@@ -59,31 +64,37 @@ export const PROJECTS = [
 
    {
       title: "Medisense",
+      image: medisense,
       stack: {
          frontend: "AngularJS",
          backend: "Java Spring Boot",
       },
       description:
          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Donec enim diam vulputate ut.",
+      href: "https://github.com/cswebdev/medisense",
    },
 
    {
       title: "Pixel Perfect",
+      image: pixelPerfect,
       stack: {
          frontend: "HTML5",
          backend: "",
       },
       description:
          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Donec enim diam vulputate ut.",
+      href: "https://github.com/cswebdev/pixel-perfect",
    },
    {
-      title: "Dashyboard",
+      title: "Dashboady",
+      image: dashboardy,
       stack: {
          frontend: "ReactJS",
          backend: "",
       },
       description:
          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Donec enim diam vulputate ut.",
+      href: "https://github.com/cswebdev/smart_dashboard",
    },
 ];
 

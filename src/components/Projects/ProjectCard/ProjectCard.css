@@ -5,7 +5,6 @@
     padding: 1.5rem;
     margin: 0 1rem;
     height: 23rem;
-    /* width: 28rem; */
     position: relative;
 }
 
@@ -15,6 +14,34 @@
     margin-bottom: 0.7rem;
 }
 
+.card-body {
+    position: relative;
+    height: 16rem;
+    padding: 0;
+    margin: auto;
+}
+
+.card-body>p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #000000d5;
+    margin: auto;
+    padding: 0;
+}
+
+.card-body>img {
+    width: 99%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-position: top;
+}
+
 .github-btn {
     font-size: 0.9rem;
     font-weight: 500;
@@ -22,9 +49,9 @@
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
-    padding: 0.6rem 2rem;
-    margin: .4rem;
+    background-color: #58469b;
+    padding: 0.45rem 2rem;
+    margin: 0 1.5rem .4rem 0;
     outline: 1.5px solid transparent;
     border: none;
     border-radius: 0.2rem;
@@ -41,7 +68,7 @@
 }
 
 .github-btn:hover {
-    color: #a993fe;
+    color: #000000;
     background: #000;
     outline: 1.5px solid #a993fe;
 }
@@ -57,7 +84,7 @@ a {
     color: inherit;
 }
 
-.github-btn:hover a {
+a:hover {
     color: #a993fe;
 }
 
@@ -68,7 +95,6 @@ p {
 }
 
 .card-footer {
-    border: 1px solid red;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -76,14 +102,21 @@ p {
 }
 
 .stack-info {
-    margin-bottom: 1rem;
+    margin-bottom: .8rem;
+    padding-left: .8rem;
 }
 
 .tech-stack {
-    background: black;
+    background: #58469b;
     width: fit-content;
-    padding: .3rem;
-    border: 1.5px solid #6751b9;
-    border-radius: 0.65rem;
-    color: #7e61e7;
+    padding: .4rem;
+    outline: 1.5px solid #6751b9;
+    border-radius: 0.2rem;
+    margin: 0 0 0 1rem;
+    font-size: .9rem;
+}
+
+.tech-stack:hover {
+    background: #000;
+    color: #a993fe;
 }
