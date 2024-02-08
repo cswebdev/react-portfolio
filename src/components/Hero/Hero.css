@@ -81,12 +81,13 @@
 
 .social-icon>img {
     padding: 3px;
-    border: 1.5px solid #613efd99;
+    /* border: 1.5px solid #613efd99; */
     border-radius: 0.65rem;
     background-color: #312752;
 
-
 }
+
+
 
 .social-icon>img:hover {
     background-color: #110c2799;
