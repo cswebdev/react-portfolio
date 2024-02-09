@@ -4,6 +4,8 @@ import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import EmailIcon from "../../assets/images/email-icon.svg";
 import GithubIcon from "../../assets/images/github-icon.svg";
 import ContactForm from "./ContactForm/ContactForm";
+import selfie from "../../assets/images/selfie.png";
+
 const ContactMe = () => {
    return (
       <>
@@ -11,16 +13,6 @@ const ContactMe = () => {
             <h5>Contact Me</h5>
 
             <div className="contact-content">
-               <div style={{ flex: 1 }}>
-                  {/* <ContactInfoCard
-                     iconUrl={EmailIcon}
-                     text="cswebdev@gmail.com"
-                  />
-                  <ContactInfoCard
-                     iconUrl={GithubIcon}
-                     text="https://github.com/cswebdev"
-                  /> */}
-               </div>
                <div style={{ flex: 1 }}>
                   <ContactForm />
                </div>

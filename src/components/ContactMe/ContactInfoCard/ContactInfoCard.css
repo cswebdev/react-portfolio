@@ -3,10 +3,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #130f2a;
+    /* background: #130f2a; */
     border-radius: 0.65rem;
-    border: 1.5px solid #6751b9;
-    padding: 1.5rem;
+    /* border: 1.5px solid #6751b9; */
+    padding: 7rem;
     margin-bottom: 2rem;
 }
 
@@ -16,15 +16,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0.5rem;
-    background: #3d3072;
-    margin-bottom: 0.8rem;
+    /* border-radius: 0.5rem; */
+    /* background: #3d3072; */
+    /* margin-bottom: 0.8rem; */
 }
 
 .icon img {
-    width: 1.8rem;
+    width: 23.5rem;
     height: auto;
     object-fit: contain;
+}
+
+.icon img::before {
+    content: '';
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: #613efd99;
+    position: absolute;
+    z-index: -1;
+    filter: blur(225px);
 }
 
 .contact-details-card p {

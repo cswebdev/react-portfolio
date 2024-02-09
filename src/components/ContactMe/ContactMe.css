@@ -13,7 +13,10 @@
 
 .contact-content {
     display: flex;
+    flex-direction: column;
     gap: 3rem;
+    max-width: 60%;
+    margin: 0 auto;
 }
 
 @media (max-width: 769px) {
