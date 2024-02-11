@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import heroIllustration from "../../assets/images/hero-illustration.png";
+import heroIllustration from "../../assets/images/selfie.png";
 
 import githubIcon from "../../assets/images/github-icon.svg";
 import linkedinIcon from "../../assets/images/linkedin-icon.svg";
@@ -16,8 +16,8 @@ const Hero = () => {
                </h2>
                <p>Full Stack Developer | Innovator | Problem Solver</p>
                <p>
-                  Transforming ideas into seamless and visually stunning web
-                  solutions
+                  Transforming ideas into functional, visually striking web
+                  solutions.
                </p>
                <div className="social-bar">
                   <div className="social-icon">

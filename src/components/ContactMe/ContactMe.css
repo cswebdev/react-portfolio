@@ -1,6 +1,7 @@
 .contact-container {
-    margin: 4rem 0;
+    margin: 5rem 0;
     position: relative;
+
 
 }
 
@@ -13,10 +14,32 @@
 
 .contact-content {
     display: flex;
-    flex-direction: column;
     gap: 3rem;
-    max-width: 60%;
-    margin: 0 auto;
+    /* max-width: 60%; */
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+
+.contact-content p {
+    text-align: start;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+}
+
+.socials-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-content>div>img {
+    width: 20rem;
+    height: auto;
+    border-radius: 0.65rem;
+    /* border: 1px solid red; */
 }
 
 @media (max-width: 769px) {
