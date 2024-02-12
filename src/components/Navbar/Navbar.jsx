@@ -13,7 +13,11 @@ const Navbar = ({ scrollToSection }) => {
 
    return (
       <>
-         <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
+         <MobileNav
+            isOpen={openMenu}
+            toggleMenu={toggleMenu}
+            scrollToSection={scrollToSection}
+         />
 
          <nav className="nav-wrapper">
             <div className="nav-content">

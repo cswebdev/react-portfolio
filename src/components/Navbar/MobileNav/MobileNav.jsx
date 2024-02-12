@@ -1,8 +1,9 @@
 import React from "react";
 import "./MobileNav.css";
 import { ReactComponent as Logo2 } from "../../../assets/images/logo2.svg";
+import resumePdf from "../../../assets/Chelsea Snider - Full Stack Developer Resume.pdf";
 
-const MobileNav = ({ isOpen, toggleMenu }) => {
+const MobileNav = ({ isOpen, toggleMenu, scrollToSection }) => {
    return (
       <>
          <div
@@ -15,29 +16,46 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                   <div className="outline"></div>
                </div>
                <ul>
-                  <li>
-                     <a className="menu-item" href="#">
-                        Home
-                     </a>
+                  <li
+                     onClick={() => scrollToSection("hero")}
+                     className="menu-item"
+                  >
+                     Home
                   </li>
-                  <li>
-                     <a className="menu-item" href="#">
-                        Skills
-                     </a>
+                  <li
+                     onClick={() => scrollToSection("skills")}
+                     className="menu-item"
+                  >
+                     Skills
                   </li>
-                  <li>
-                     <a className="menu-item" href="#">
-                        Work Experience
-                     </a>
+                  <li
+                     onClick={() => scrollToSection("projects")}
+                     className="menu-item"
+                  >
+                     Projects
                   </li>
-                  <li>
-                     <a className="menu-item" href="#">
-                        Contact Me
-                     </a>
+                  <li
+                     onClick={() => scrollToSection("work")}
+                     className="menu-item"
+                  >
+                     Work Experience
+                  </li>
+                  <li
+                     onClick={() => scrollToSection("contact")}
+                     className="menu-item"
+                  >
+                     Contact Me
                   </li>
 
-                  <button className="contact-btn" onClick={() => {}}>
-                     Hire Me
+                  <button className="resume-btn" onClick={() => {}}>
+                     <a
+                        href={resumePdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="resume-link"
+                     >
+                        Resume
+                     </a>
                   </button>
                </ul>
             </div>
