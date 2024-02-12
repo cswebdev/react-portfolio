@@ -147,12 +147,12 @@
 
 @media (max-width: 1025px) {
     .hero-content h2 {
-        font-size: 3rem;
-        line-height: 4rem;
+        font-size: 5rem;
+        line-height: 5rem;
     }
 
     .hero-content p {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         line-height: 1.6rem;
     }
 
@@ -165,23 +165,27 @@
         height: 4rem;
     }
 
-    .tech-icon img {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
+
 
     .social-bar {
-        height: 2.5rem;
+        height: 3rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
     }
 
     .social-icon {
-        width: 2rem;
-        height: 2rem;
+        width: 3rem;
+        height: 3rem;
+
     }
 
     .social-icon img {
-        width: 2rem;
-        height: 2rem;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+
     }
 }
 
@@ -224,12 +228,12 @@
 @media (max-width: 600px) {
 
     .hero-container h2 {
-        font-size: 2.2rem;
-        line-height: 3rem;
+        font-size: 3.2rem;
+        line-height: 3.2rem;
     }
 
     .hero-container p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         line-height: 1.3rem;
     }
 
@@ -245,19 +249,10 @@
         width: 16rem;
     }
 
-    .tech-icon {
-        width: 3.3rem;
-        height: 3.3rem;
-    }
-
-    .tech-icon img {
-        width: 2rem;
-        height: 2rem;
-    }
 
     .social-bar,
     .social-icon img {
-        height: 1.2rem;
+        height: 3rem;
         width: auto;
     }
 }

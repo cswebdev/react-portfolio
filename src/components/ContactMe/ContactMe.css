@@ -35,12 +35,18 @@
     /* justify-content: center; */
 }
 
+.socials-bar a img:hover {
+    padding: .1rem;
+}
+
 .contact-content>div>img {
     width: 20rem;
     height: auto;
     border-radius: 0.65rem;
     /* border: 1px solid red; */
 }
+
+
 
 @media (max-width: 769px) {
     .contact-content {

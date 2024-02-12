@@ -12,7 +12,7 @@ const Hero = () => {
          <section className="hero-container">
             <div className="hero-content">
                <h2>
-                  Hello, <br /> I'm Chelsea!
+                  Hello, <br /> I'm Christian!
                </h2>
                <p>Full Stack Developer | Innovator | Problem Solver</p>
                <p>
@@ -49,7 +49,7 @@ const Hero = () => {
                <div>
                   <img
                      className="hero-illustration"
-                     src={heroIllustration}
+                     // src={heroIllustration}
                      alt=""
                   />
                </div>

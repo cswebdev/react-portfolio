@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import "./Navbar.css";
 import MobileNav from "./MobileNav/MobileNav";
 import { ReactComponent as Logo2 } from "../../assets/images/logo2.svg";
+import resumePdf from "../../assets/Chelsea Snider - Full Stack Developer Resume.pdf";
 
 const Navbar = ({ scrollToSection }) => {
    const [openMenu, setOpenMenu] = useState(false);
@@ -54,7 +55,14 @@ const Navbar = ({ scrollToSection }) => {
                   </li>
 
                   <button className="resume-btn" onClick={() => {}}>
-                     Resume
+                     <a
+                        href={resumePdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="resume-link"
+                     >
+                        Resume
+                     </a>
                   </button>
                </ul>
 
