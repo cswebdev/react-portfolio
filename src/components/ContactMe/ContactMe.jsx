@@ -27,14 +27,26 @@ const ContactMe = () => {
                   </p>
 
                   <div className="socials-bar">
-                     <ContactInfoCard
-                        iconUrl={EmailIcon}
-                        text="Send me an email"
-                     />
-                     <ContactInfoCard
-                        iconUrl={LinkedinIcon}
-                        text="Add me on Linkedin"
-                     />
+                     <a
+                        href="https://www.linkedin.com/in/chelsea-snider/"
+                        target="_blank"
+                        rel="noreferrer"
+                     >
+                        <ContactInfoCard
+                           iconUrl={LinkedinIcon}
+                           text="Add me on Linkedin"
+                        />
+                     </a>
+                     <a
+                        href="mailto:cswebdev91@gmail.com"
+                        target="_blank"
+                        rel="noreferrer"
+                     >
+                        <ContactInfoCard
+                           iconUrl={EmailIcon}
+                           text="Send me an email"
+                        />
+                     </a>
                   </div>
                </div>
             </div>
