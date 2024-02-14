@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import MobileNav from "./MobileNav/MobileNav";
 import { ReactComponent as Logo2 } from "../../assets/images/logo2.svg";

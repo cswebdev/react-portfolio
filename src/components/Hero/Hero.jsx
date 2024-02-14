@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
-import heroIllustration from "../../assets/images/selfie.png";
-
+// import heroIllustration from "../../assets/images/selfie.png";
+import heroIllustration from "../../assets/images/hero-illustration.png";
 import githubIcon from "../../assets/images/github-icon.svg";
 import linkedinIcon from "../../assets/images/linkedin-icon.svg";
 import devtoIcon from "../../assets/images/dev-to.svg";
@@ -24,12 +24,17 @@ const Hero = () => {
                      <a
                         href="https://www.linkedin.com/in/chelsea-snider"
                         target="_blank"
+                        rel="noopener noreferrer"
                      >
                         <img src={linkedinIcon} alt="linkedIcon" />
                      </a>
                   </div>
                   <div className="social-icon">
-                     <a href="https://github.com/cswebdev" target="_blank">
+                     <a
+                        href="https://github.com/cswebdev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                     >
                         <img
                            id="githubIcon"
                            src={githubIcon}
@@ -38,7 +43,11 @@ const Hero = () => {
                      </a>
                   </div>
                   <div className="social-icon">
-                     <a href="https://dev.to/codewithchelsea" target="_blank">
+                     <a
+                        href="https://dev.to/codewithchelsea"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                     >
                         <img id="githubIcon" src={devtoIcon} alt="devTo Icon" />
                      </a>
                   </div>
@@ -49,7 +58,7 @@ const Hero = () => {
                <div>
                   <img
                      className="hero-illustration"
-                     // src={heroIllustration}
+                     src={heroIllustration}
                      alt=""
                   />
                </div>

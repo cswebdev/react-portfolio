@@ -3,8 +3,6 @@ import "./ContactMe.css";
 import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import EmailIcon from "../../assets/images/email-icon.svg";
 import LinkedinIcon from "../../assets/images/linkedin-icon.svg";
-import GithubIcon from "../../assets/images/github-icon.svg";
-import ContactForm from "./ContactForm/ContactForm";
 // import selfie from "../../assets/images/selfie.png";
 import contactIllustration from "../../assets/images/2.png";
 
@@ -20,10 +18,15 @@ const ContactMe = () => {
                </div>
                <div>
                   <p>
-                     Let's connect and work together! You can send me an email,
-                     or message me on LinkedIn. I'm eager to hear from you and
-                     explore exciting opportunities together. Reach out, and
-                     let's create something incredible!
+                     I'm thrilled about the possibility of collaborating with
+                     you! Whether it's consulting work you're seeking or adding
+                     a fresh perspective to your team, I'm here and ready to
+                     make a difference.
+                  </p>
+                  <p>
+                     Feel free to reach out via email or connect with me on
+                     LinkedIn. Let's embark on this journey together and craft
+                     remarkable solutions that exceed expectations.
                   </p>
 
                   <div className="socials-bar">
