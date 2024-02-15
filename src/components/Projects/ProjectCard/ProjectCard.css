@@ -112,10 +112,8 @@ p {
 }
 
 .tech-stack {
-    /* background: #58469b; */
-    width: fit-content;
+    /* width: fit-content; */
     padding: .4rem;
-    /* outline: 1.5px solid #6751b9; */
     border-radius: 0.2rem;
     margin: 0 0 0 1rem;
     font-size: .9rem;
@@ -129,8 +127,17 @@ p {
     max-width: auto;
 }
 
-@media(max-width: 769px) {
+@media (max-width: 625px) {
     .github-btn {
         max-width: 5.5rem;
+        padding: .1rem;
+    }
+
+    .tech-stack {
+
+        padding: .2rem;
+        margin: 0 0 0 .5rem;
+        font-size: 0.6rem;
+
     }
 }
