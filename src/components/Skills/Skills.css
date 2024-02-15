@@ -43,7 +43,7 @@
 
 
 .tech-icon img {
-    height: 4.2rem;
+    height: 5rem;
     width: auto;
     transition: all 0.3s ease;
 }
@@ -143,20 +143,19 @@
         width: 18rem;
     }
 
-    .stack-row {
-        max-width: 80%;
-    }
+
 
     .stack-row img {
         flex-direction: row;
         align-items: center;
-        max-width: 4.3rem;
-        max-height: 4.3rem;
+        max-width: 4.1rem;
+        max-height: 4.1rem;
     }
 
     .stack-row .tech-icon {
         max-width: 4.3rem;
         max-height: 4.3rem;
+        padding: 3px;
     }
 
 }
