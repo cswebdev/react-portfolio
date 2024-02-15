@@ -124,3 +124,13 @@ p {
 .tech-stack:hover {
     color: #a993fe;
 }
+
+.github-btn {
+    max-width: auto;
+}
+
+@media(max-width: 769px) {
+    .github-btn {
+        color: red;
+    }
+}

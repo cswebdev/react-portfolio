@@ -22,8 +22,8 @@
 
 .stack-row {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: center;
     margin: .25rem 0rem;
 }
 
@@ -34,8 +34,8 @@
 }
 
 .tech-icon {
-    width: 5.5rem;
-    height: 5.5rem;
+    max-width: 5.5rem;
+    max-height: 5.5rem;
     display: flex;
     padding: 0rem 3rem;
     border-color: transparent;
@@ -141,6 +141,13 @@
     .skills-container::before {
         height: 18rem;
         width: 18rem;
+    }
+
+    .stack-row img {
+        flex-direction: row;
+        align-items: center;
+        max-width: 4.3rem;
+        max-height: 4.3rem;
     }
 
 }
