@@ -19,6 +19,7 @@ const Hero = () => {
                   Transforming ideas into functional, visually striking web
                   solutions.
                </p>
+
                <div className="social-bar">
                   <div className="social-icon">
                      <a
