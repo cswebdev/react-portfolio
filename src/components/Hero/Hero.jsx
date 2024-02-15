@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
-// import heroIllustration from "../../assets/images/selfie.png";
-import heroIllustration from "../../assets/images/hero-illustration.png";
+import heroIllustration from "../../assets/images/selfie.png";
+// import heroIllustration from "../../assets/images/hero-illustration.png";
 import githubIcon from "../../assets/images/github-icon.svg";
 import linkedinIcon from "../../assets/images/linkedin-icon.svg";
 import devtoIcon from "../../assets/images/dev-to.svg";
@@ -12,7 +12,7 @@ const Hero = () => {
          <section className="hero-container">
             <div className="hero-content">
                <h2>
-                  Hello, <br /> I'm Christian!
+                  Hello, <br /> I'm Chelsea!
                </h2>
                <p>Full Stack Developer | Innovator | Problem Solver</p>
                <p>

@@ -100,13 +100,24 @@
     align-items: center;
     gap: 1rem;
     margin-top: 5rem;
+    width: 30rem;
+    height: auto;
+    /* overflow: hidden; */
+}
+
+.hero-illustration {
+    width: 60rem;
+    height: auto;
 
 }
+
 
 .hero-img>div {
     display: flex;
     align-items: flex-end;
     gap: 2rem;
+
+
 }
 
 
@@ -115,11 +126,7 @@
     transition: all 0.3s ease;
 }
 
-.hero-illustration {
-    width: 30rem;
-    height: auto;
-    border-radius: 25px;
-}
+
 
 .tech-icon {
     width: 5rem;

@@ -24,13 +24,13 @@ const Skills = () => {
          <section className="skills-container">
             <h5>Technical Proficiency</h5>
             <p>
-               In the course of my software development career, I have finished
-               a rigorous internship, a state-accredited apprenticeship program,
-               and several boot camp certification courses. Throughout my
-               experience, these immersive programs have helped me acquire a
-               wide range of skills and knowledge about different technologies
-               and tech stacks within the always evolving field of software
-               development.
+               During the course of my software development career, I have
+               finished an internship with Booz Allen Hamilton, completed a
+               state-accredited apprenticeship program, and multiple boot camp
+               certification courses. Throughout my experience, these immersive
+               programs have helped me acquire a wide range of skills and
+               knowledge about different technologies and tech stacks within the
+               always evolving field of software development.
             </p>
             <p>
                Get in touch with me to see how I can best serve your needs with
