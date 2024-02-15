@@ -1,6 +1,5 @@
 import React from "react";
 import "./ContactMe.css";
-import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import EmailIcon from "../../assets/images/email-icon.svg";
 import LinkedinIcon from "../../assets/images/linkedin-icon.svg";
 // import selfie   from "../../assets/images/selfie.png";
@@ -35,9 +34,10 @@ const ContactMe = () => {
                         target="_blank"
                         rel="noreferrer"
                      >
-                        <ContactInfoCard
-                           iconUrl={LinkedinIcon}
-                           text="Add me on Linkedin"
+                        <img
+                           src={LinkedinIcon}
+                           className="icon"
+                           alt="linkedin icon"
                         />
                      </a>
                      <a
@@ -45,10 +45,7 @@ const ContactMe = () => {
                         target="_blank"
                         rel="noreferrer"
                      >
-                        <ContactInfoCard
-                           iconUrl={EmailIcon}
-                           text="Send me an email"
-                        />
+                        <img src={EmailIcon} className="icon" alt="" />
                      </a>
                   </div>
                </div>
