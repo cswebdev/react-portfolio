@@ -3,7 +3,7 @@ import "./ContactMe.css";
 import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import EmailIcon from "../../assets/images/email-icon.svg";
 import LinkedinIcon from "../../assets/images/linkedin-icon.svg";
-// import selfie from "../../assets/images/selfie.png";
+// import selfie   from "../../assets/images/selfie.png";
 import contactIllustration from "../../assets/images/2.png";
 
 const ContactMe = () => {
@@ -18,7 +18,7 @@ const ContactMe = () => {
                </div>
                <div>
                   <p>
-                     I'm thrilled about the possibility of collaborating with
+                     I am thrilled about the possibility of collaborating with
                      you! Whether it's consulting work you're seeking or adding
                      a fresh perspective to your team, I'm here and ready to
                      make a difference.
