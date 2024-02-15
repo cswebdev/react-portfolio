@@ -20,7 +20,7 @@ const ProjectCard = ({ details }) => {
                   <span className="tech-stack">{details.stack.backend}</span>
                )}
             </div>
-            <a href={details.href} target="_blank">
+            <a href={details.href} target="_blank" rel="noopener noreferrer">
                <button className="github-btn">
                   <span>GitHub</span> <img src={githubIcon} alt="GitHub Icon" />
                </button>
