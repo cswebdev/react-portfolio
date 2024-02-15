@@ -154,6 +154,11 @@
         max-height: 4.3rem;
     }
 
+    .stack-row .tech-icon {
+        max-width: 4.3rem;
+        max-height: 4.3rem;
+    }
+
 }
 
 @media(max-width: 600px) {
