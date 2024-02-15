@@ -131,6 +131,6 @@ p {
 
 @media(max-width: 769px) {
     .github-btn {
-        color: red;
+        max-width: 5.5rem;
     }
 }
