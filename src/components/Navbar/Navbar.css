@@ -158,6 +158,13 @@
     display: none;
 }
 
+.menu-btn span {
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
 .menu-btn:hover {
     color: #a993fe;
     background-color: #000;

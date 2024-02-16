@@ -133,11 +133,17 @@ p {
         padding: .1rem;
     }
 
-    .tech-stack {
 
+    .stack-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tech-stack {
+        display: flex;
         padding: .2rem;
         margin: 0 0 0 .5rem;
         font-size: 0.6rem;
-
+        flex-direction: column;
     }
 }
