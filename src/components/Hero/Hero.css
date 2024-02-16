@@ -151,6 +151,10 @@
     transform: translateY(-0.3rem);
 }
 
+#emailIcon {
+    height: 3.5rem;
+    width: auto;
+}
 
 @media (max-width: 1025px) {
     .hero-content h2 {
@@ -233,6 +237,7 @@
         height: 3rem;
         width: 3rem;
     }
+
 
 }
 

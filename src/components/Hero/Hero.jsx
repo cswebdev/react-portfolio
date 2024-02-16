@@ -5,6 +5,7 @@ import heroIllustration from "../../assets/images/selfie.png";
 import githubIcon from "../../assets/images/github-icon.svg";
 import linkedinIcon from "../../assets/images/linkedin-icon.svg";
 import devtoIcon from "../../assets/images/dev-to.svg";
+import emailIcon from "../../assets/images/email-icon.svg";
 
 const Hero = () => {
    return (
@@ -50,6 +51,15 @@ const Hero = () => {
                         rel="noopener noreferrer"
                      >
                         <img id="githubIcon" src={devtoIcon} alt="devTo Icon" />
+                     </a>
+                  </div>
+                  <div className="social-icon">
+                     <a
+                        href="mailto:cswebdev91@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                     >
+                        <img id="emailIcon" src={emailIcon} alt="devTo Icon" />
                      </a>
                   </div>
                </div>
