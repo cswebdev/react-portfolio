@@ -6,6 +6,7 @@ import closetSwap from "../assets/images/closet-swap.herokuapp.com.png";
 import medisense from "../assets/images/localhost_4200_login.png";
 import pixelPerfect from "../assets/images/cswebdev.github.io_pixel-perfect_.png";
 import dashboardy from "../assets/images/cswebdev.github.io_smart_dashboard_.png";
+import tetris from "../assets/images/tetris.png";
 
 export const SKILLS = [
    {
@@ -60,6 +61,14 @@ export const PROJECTS = [
       description:
          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Donec enim diam vulputate ut.",
       href: "https://github.com/cswebdev/closet-swap",
+   },
+   {
+      title: "Tetris Clone",
+      image: tetris,
+      stack: {
+         frontend: "ReactJS",
+      },
+      href: "https://github.com/cswebdev/tetris_clone",
    },
 
    {
