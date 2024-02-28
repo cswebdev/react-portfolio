@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import MobileNav from "./MobileNav/MobileNav";
 import { ReactComponent as Logo2 } from "../../assets/images/logo2.svg";
-import resumePdf from "../../assets/chelsea_snider_resume.pdf";
+import resumePdf from "../../assets/chelsea snider full stack developer resume.pdf";
 
 const Navbar = ({ scrollToSection }) => {
    const [openMenu, setOpenMenu] = useState(false);
