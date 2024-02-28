@@ -1,7 +1,7 @@
 import React from "react";
 import "./MobileNav.css";
 import { ReactComponent as Logo2 } from "../../../assets/images/logo2.svg";
-import resumePdf from "../../../assets/Chelsea Snider - Full Stack Developer Resume.pdf";
+import resumePdf from "../../../assets/Chelsea_Snider_resume.pdf";
 
 const MobileNav = ({ isOpen, toggleMenu, scrollToSection }) => {
    return (
