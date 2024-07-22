@@ -15,7 +15,7 @@ export const SKILLS = [
       skills: [
          { skill: "HTML5", percentage: "80%" },
          { skill: "CSS3 (Sass/SCSS)", percentage: "75%" },
-         { skill: "JavaScript", percentage: "60%" },
+         { skill: "JavaScript", percentage: "70%" },
          { skill: "ReactJS", percentage: "70%" },
          { skill: "AngularJS", percentage: "55%" },
       ],
@@ -42,10 +42,10 @@ export const SKILLS = [
       title: "Soft Skills",
       icon: softskills,
       skills: [
-         { skill: "Attention to Detail", percentage: "95%" },
-         { skill: "Communication", percentage: "80%" },
-         { skill: "Problem Solving", percentage: "60%" },
-         { skill: "Creativity", percentage: "90%" },
+         { skill: "Critical Thinking", percentage: "95%" },
+         { skill: "Team Collaboration", percentage: "100%" },
+         { skill: "Adaptability", percentage: "90%" },
+         { skill: "Communication", percentage: "100%" },
       ],
    },
 ];
@@ -108,12 +108,32 @@ export const PROJECTS = [
 
 export const WORK_EXPERIENCE = [
    {
-      title: "Booz Allen Hamilton - Full Stack Intern",
+      title: "Teachers Assistant, Carolina Code School, Greenville SC",
+      date: "May 2024 - July 2024",
+      responsibilities: [
+         "Supported a cohort in achieving a 100% graduation rate by assisting students with technical knowledge and troubleshooting needs.",
+         "Guided students in troubleshooting issues, enhancing their problem solving skills.",
+         "Developed weekly JavaScript challenges and conducted mock coding interviews to enhance students' technical skills and interview readiness.",
+         "Boosted program engagement for Carolina Code School by creating weekly blog posts for the Full-Stack Developer Certification course.",
+      ],
+   },
+   {
+      title: "Front End Developer, Interconnected Collective, Remote",
+      date: "March 2024 - June 2024",
+      responsibilities: [
+         "Assisted volunteer group in launching an application for the Lesbian Who Tech and Allies Summit 2024.",
+         "Developed a static ReactJS application hosted via Netlify.",
+         "Collaborated closely with a volunteer lead team of project managers, UI/UX designers, and developers.",
+         "Supported the app development process from initial development to launch.",
+      ],
+   },
+   {
+      title: "Booz Allen Hamilton - Apprentice Full-Stack Developer",
       date: "July 2023 - December 2023",
       responsibilities: [
          "Developed dynamic front-end AngularJS components to display for a Department of Veterans Affairs financial dashboard.",
          "Increased security by preventing users from deactivating their own accounts in the Java Spring Boot backend of the Veterans Affairs financial dashboard.",
-         "Created front end and back end unit tests to verify correct HTTPS status codes related to user access in order to ehance error handling for Veterans Affairs financial dashboard.",
+         "Created front end and back end unit tests to verify correct HTTPS status codes related to user access in order to enhance error handling for Veterans Affairs financial dashboard.",
          "Researched and created reports for the National Oceanic and Atmospheric Administration on AI and non AI based options to update Fortran codebases to Python.",
          "Collaborated with multiple teams on different projects in a highly agile development environment.",
       ],
