@@ -5,12 +5,14 @@ import githubIcon from "../../../assets/images/github-icon.svg";
 const ProjectCard = ({ details }) => {
    return (
       <div className="projects-card">
-         <div className="card-title">
-            <h6>{details.title}</h6>
+         <div className="card-title-container">
+            <h6 className="project-title">{details.title}</h6>
          </div>
          <div className="card-body">
-            <img src={details.image} alt="" />
-            {/* <p>{details.description}</p> */}
+            <img src={details.image} className="card-image" alt="" />
+            <div className="card-text-container">
+               <p className="card-text">{details.description}</p>
+            </div>
          </div>
 
          <div className="card-footer">

@@ -55,7 +55,7 @@ img {
     height: 3rem;
     object-fit: contain;
     padding: 0;
-    margin: .1rem;
+    /* margin: .1rem; */
 }
 
 @media (max-width: 769px) {
