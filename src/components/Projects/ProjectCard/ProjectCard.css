@@ -6,6 +6,7 @@
     height: 35rem;
     flex-shrink: 0;
     position: relative;
+
 }
 
 
@@ -14,25 +15,27 @@
 }
 
 .card-title-container {
-    width: 100%;
-    /* background-color: #fff; */
+
+    background-color: #6751b9;
     height: min-content;
     padding: 0;
     margin: 0;
     position: relative;
+    transform: translate(-.05rem);
 }
 
 .project-title {
-    background-color: #6751b9;
+    /* background-color: #6751b9; */
     max-width: fit-content;
     height: 100%;
-    border: .1px solid transparent;
-    border-radius: 0px 0px 0.65rem 0px;
+    /* border: .1px solid transparent;
+    border-radius: 0px 0px 0.65rem 0px; */
     padding: 12px 10px;
     margin: 0;
     box-sizing: border-box;
     line-height: 1;
-    transform: translate(-.05rem, -.05rem)
+    transform: translate(-.05rem, -.05rem);
+    color: #fff;
 }
 
 .projects-card h6 {
